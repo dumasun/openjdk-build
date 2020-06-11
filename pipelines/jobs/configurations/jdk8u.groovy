@@ -1,5 +1,5 @@
 targetConfigurations = [
-        "mips64"        : [
+        "x64"        : [
                 "hotspot"
         ]
 ]

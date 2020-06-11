@@ -1,8 +1,8 @@
 class Config8 {
   final Map<String, Map<String, ?>> buildConfigurations = [
-        mips64        : [
+        x64        : [
                 os                  : 'linux',
-                arch                : 'mips64',
+                arch                : 'x64',
                 additionalNodeLabels: [
                         hotspot : 'x86-i7-250'
                 ],
