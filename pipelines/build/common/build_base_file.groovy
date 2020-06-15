@@ -193,7 +193,7 @@ class Builder implements Serializable {
                             if (platformConfig.containsKey('additionalFileNameTag')) {
                                 name += "-${platformConfig.additionalFileNameTag}"
                             }
-
+                            context.println "name === ${name}"
                             jobConfigurations[name] = buildConfiguration(platformConfig, variant)
                         }
                     }
